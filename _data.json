@@ -7,23 +7,11 @@
         "pageTitle": "Flexbox"
     },
 
-    "contact": {
-        "pageTitle": "Contact"
-    },
-    
-    "blog-post": {
-        "pageTitle": "Blog Post"
-    },
-
     "couleurs": {
         "pageTitle": "Couleurs"
     },
 
     "loader": {
         "pageTitle": "Loader"
-    },
-
-    "navbar": {
-        "pageTitle": "Navbar"
     }
 }
