@@ -7,11 +7,15 @@
         "pageTitle": "Flexbox"
     },
 
-    "couleurs": {
-        "pageTitle": "Couleurs"
+    "slideshow": {
+        "pageTitle": "Carousel"
     },
 
     "loader": {
         "pageTitle": "Loader"
+    },
+
+    "card": {
+        "pageTitle": "Bootstrap Card"
     }
 }
