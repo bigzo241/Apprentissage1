@@ -118,32 +118,67 @@
 	</nav>
 </div>
 
-		<div class="container">
-	<div class="row">
-		<div class="col-lg-12">
-			<h1 class="text-center pt-3">Loader pour vos scripts
-				<em>AJAX</em>
-				et autres
-			</h1>
-		</div>
-	</div>
-
-	<div class="row justify-content-between mt-3">
-		<div class="col-lg-3">
-			<div class="loader loaderColor1"></div>
-		</div>
-		<div class="col-lg-3">
-			<div class="loader loaderColor2"></div>
-		</div>
-		<div class="col-lg-3">
-			<div class="loader loaderColor3"></div>
-		</div>
-		<div class="col-lg-3">
-			<div class="loader loaderColor4"></div>
-		</div>
-	</div>
-
+		<div class="form_title">
+    <h1>Formulaire d'inscription: la magie de JavaScript</h1>
 </div>
+
+<form id="myForm" method="POST" action="form.php">
+
+    
+        
+            <span class="form_col">Sexe:</span>
+            <label> <input type="radio" name="sex" value="H"> Masculin</label>
+            <label> <input type="radio" name="sex" value="F"> Feminin</label>
+            <span class="tooltip">Vous devez selectionnez votre sexe</span> <br> <br>
+        
+        
+        <label class="form_col" for="lastName">Nom:</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Entrez votre nom">
+        <span class="tooltip">Un nom ne peut faire moins de deux (02) caractères</span>
+         <br> <br>
+
+        <label class="form_col" for="firstName">Prenom:</label> 
+        <input type="text" id="firstName" name="firstName" placeholder="Entrez votre prenom">
+        <span class="tooltip">Un prénom ne peut pas faire moins de deux (02) caractères</span>
+        <br> <br>
+
+        <label class="form_col" for="age">Age:</label> 
+        <input type="text" id="age" name="age" placeholder="Entrez votre âge"> 
+        <span class="tooltip">L'âge doit être compris entre 5 et 140</span>
+        <br> <br>
+
+        <label class="form_col" for="login">Pseudo:</label> 
+        <input type="text" id="login" name="login" placeholder="Entrez votre pseudo"> 
+        <span class="tooltip">Le pseudo ne doit pas faire moins 4 caractères</span>
+        <br> <br>
+
+        <label class="form_col" for="pwd1">Mot de passe:</label> 
+        <input type="password" id="pwd1" name="pwd1"> 
+        <span class="tooltip">Le mot de passe ne doit pas faire moins de 6 caracteres</span>
+        <br> <br>
+
+        <label class="form_col" for="pwd2">Confirmez le mot de passe:</label> 
+        <input type="password" id="pwd2" name="pwd2"> 
+        <span class="tooltip">Le mot de passe de confirmation doit etre identique au mot de passe d'origine</span>
+        <br> <br>
+
+        <label class="form_col" for="country">Dans quel pays habitez vous?</label> 
+
+        <select name="country" id="country">
+            <option value="none">Selectionnez votre pays</option>
+            <option value="us">Etats-Unis</option>
+            <option value="fr">France</option>
+            <option value="en">Angleterre</option>
+        </select>
+        <span class="tooltip">Vous devez selectionnez votre pays</span>
+        <br> <br>
+
+        <span class="form_col"></span>
+        <label> <input name="news" type="checkbox">Je desire recevoir la newsletter chaque mois.</label>
+        <br> <br>
+        <span class="form_col"></span>
+        <input type="submit" value="M'inscrire"> <input type="reset" value="Réinitialiser le formulaire">
+</form>
 		
 
 		<!-- jQuery first, then Bootstrap JS. -->
