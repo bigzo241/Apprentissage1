@@ -255,7 +255,30 @@
 }
 
 
+/* footer */
+.footer {
+    padding: 2rem;
+    background-color: #383831;
+    /* background: linear-gradient(#000000, #66b3e6); */
+    color: white;
 
+}
+
+h5 {
+    /* text-align: center; */
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 23px;
+}
+
+.footer ul > li {
+    margin-bottom: 10px;
+}
 
 /* Definition des animations */
 @keyframes opacity1
